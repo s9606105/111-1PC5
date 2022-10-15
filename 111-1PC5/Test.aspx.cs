@@ -63,7 +63,7 @@ namespace _111_1PC5
                     mostMoney = ia_number[ia_total[i_in] - 6];
                 }
             }
-            Response.Write("mostSum: " + mostSum + ", mostMGP: " + mostMoney + "元");
+            Response.Write("mostSum: " + mostSum); //  + ", mostMGP: " + mostMoney + "元"
         }
 
         void mt_GetLeast()
@@ -83,7 +83,7 @@ namespace _111_1PC5
                     leastMoney = ia_number[ia_total[i_in] - 6];
                 }
             }
-            Response.Write("leastSum: " + leastSum + ", leastMGP: " + leastMoney + "元");
+            Response.Write("leastSum: " + leastSum); //  + ", leastMGP: " + leastMoney + "元"
         }
     }
 }
